@@ -1,8 +1,11 @@
 import React from 'react'
+import Card from './components/Card'
 
 function App() {
   return (
-    <div className='text-4xl font-bold'>App</div>
+    <main className='container flex flex-col items-center pt-10 bg-gray-800 h-screen w-screen'>
+      <Card massage={"hello world"} />
+    </main>
   )
 }
 
